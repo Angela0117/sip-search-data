@@ -19,7 +19,7 @@ server.db = router.db;
 //server.use(jsonServer.bodyParser);
 
 
-//應用 json-server-auth（必須在 router 之後）
+//應用 json-server-auth
 server.use(auth);
 
 //應用 json-server 路由
@@ -32,7 +32,7 @@ server.use(router)
 //   console.log('JSON Server is running')
 // })
 
-//改為使用環境變數 PORT 0519
+//改為使用環境變數 PORT 
 const port = process.env.PORT || 3000;
 server.listen(port, () => {
   console.log(`JSON Server is running on port ${port}`);
