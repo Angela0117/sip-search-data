@@ -15,6 +15,9 @@ server.use(middlewares)
 //移除 server.db = router.db;：讓 router 自行管理 db.json，避免衝突。
 //server.db = router.db;
 
+//新加入
+server.use(jsonServer.bodyParser);
+
 //應用 json-server 路由
 server.use(router)
 //應用 json-server-auth（必須在 router 之後）
