@@ -2,13 +2,14 @@
 const cors = require('cors');
 const jsonServer = require('json-server')
 const auth = require("json-server-auth");
-const db = require("./db.json");
+//const db = require("./db.json");
 
 // 建立 JSON Server 伺服器
 const server = jsonServer.create()
 
 // 載入資料庫
-const router = jsonServer.router(db);
+//const router = jsonServer.router(db);
+const router = jsonServer.router("db.json");
 
 //預設中介軟體（例如靜態檔案支援、日誌）
 const middlewares = jsonServer.defaults();
