@@ -3595,6 +3595,39 @@
       "is_active": true,
       "is_deleted": false,
       "deleted_at": ""
+    },
+    {
+      "id": 21,
+      "nickname": "Angela Huang",
+      "email": "angelatest123@gmail.com",
+      "password": "$2a$10$pqSAigWyB/v9LKoRDev3c.wBtctn0lG7eSW7HDyHpxtf0QFU0CfJq",
+      "imagesUrl": "https://randomuser.me/api/portraits/women/12.jpg",
+      "favorite_recipes": [
+        2,
+        4
+      ],
+      "favorite_bars": [
+        2,
+        3
+      ],
+      "like_recipes": [
+        3,
+        4,
+        7,
+        9,
+        11
+      ],
+      "like_bars": [
+        4,
+        6,
+        10,
+        12,
+        13
+      ],
+      "is_subscribed": true,
+      "is_active": true,
+      "is_deleted": false,
+      "deleted_at": ""
     }
   ],
   "userComments": [
