@@ -3624,6 +3624,11 @@
         12,
         13
       ],
+      "comments": [
+        2,
+        8,
+        18
+      ],
       "is_subscribed": true,
       "is_active": true,
       "is_deleted": false,
@@ -3703,7 +3708,7 @@
     },
     {
       "id": 8,
-      "userId": 11,
+      "userId": 21,
       "targetType": "bar",
       "targetId": 10,
       "targetName": "The Speakeasy",
