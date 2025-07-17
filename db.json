@@ -3625,9 +3625,18 @@
         13
       ],
       "comments": [
-        2,
-        8,
-        18
+        {
+          "id": 2,
+          "type": "recipe"
+        },
+        {
+          "id": 8,
+          "type": "bar"
+        },
+        {
+          "id": 18,
+          "type": "bar"
+        }
       ],
       "is_subscribed": true,
       "is_active": true,
